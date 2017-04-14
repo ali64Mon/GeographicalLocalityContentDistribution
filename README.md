@@ -13,7 +13,7 @@ In this regard, we modify basic_cache to accept differnt caches sizes for nodes.
 Copy GeographicalLocalityContentDistribution.h, client_GeographicalLocality.h and basic_cache.h to ccnsim/include/ \
 Copy client_GeographicalLocality.cc to ccnsim/src/clients/ \
 Copy GeographicalLocalityContentDistribution.cc to ccnsim/src/content/ \
-Copy GeographicalLocalityContentDistribution.ned to ccnsim/moduels/contnet/ \ 
+Copy GeographicalLocalityContentDistribution.ned to ccnsim/moduels/contnet/ \
 Copy omnetpp.ini to ccnsim/ \
 Replace basic_cache.cc with its original version in ccnsim/src/node/cache/ \
 Replace Makefile with its original in ccnsim/
