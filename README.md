@@ -9,7 +9,7 @@ Copy GeographicalLocalityContentDistribution.h and client_GeographicalLocality.h
 Copy client_GeographicalLocality.cc to ccnsim/src/clients
 Copy GeographicalLocalityContentDistribution.cc to ccnsim/src/content
 Copy GeographicalLocalityContentDistribution.ned to ccnsim/moduels/contnet
-Copy omnet.ini to ccnsim
+Copy omnetpp.ini to ccnsim
 
 
 Note: these two classes are compatible with ccnsim3.
