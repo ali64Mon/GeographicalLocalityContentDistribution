@@ -55,7 +55,8 @@ void base_cache::initialize(){
     level = getAncestorPar("level");
     cModule* cdModule = getParentModule()->getParentModule()->getSubmodule("content_distribution");
     GeographicalLocalityContentDistribution* cdModule2GLCD = dynamic_cast<GeographicalLocalityContentDistribution*>(cdModule);
-    //if(par("cache_budget_file").stdstringValue() == "" || !cdModule2GLCD )
+    // the following assgined different cache sizes to the node sin the network.
+    // Each nodes is mapped to a cache size which is read from a file.
     if(par("cache_budget_file").stdstringValue() == "" )
     	cache_size = par("C").longValue();
     else
