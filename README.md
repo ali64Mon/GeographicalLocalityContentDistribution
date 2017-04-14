@@ -17,7 +17,7 @@ Copy GeographicalLocalityContentDistribution.ned to ccnsim/moduels/contnet/ \
 Copy omnetpp.ini to ccnsim/ \
 Replace basic_cache.cc with its original version in ccnsim/src/node/cache/ \
 Replace Makefile with its original in ccnsim/
-Replace the following  with the one in ccnsim/modles/node/cache/caches.ned \
+Replace the following  with the one in ccnsim/modles/node/cache/caches.ned 
 
 
 	simple base_cache like cache
