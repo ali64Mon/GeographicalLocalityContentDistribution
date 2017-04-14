@@ -9,13 +9,15 @@ Since different regions have differnt lambda, we can also dedicate different cac
 In this regard, we modify basic_cache to accept differnt caches sizes for nodes. This is implemented as a map between a node and its corresponding size provided a file.
 
 
-Copy GeographicalLocalityContentDistribution.h, client_GeographicalLocality.h and basic_cache.h to ccnsim/include \
-Copy client_GeographicalLocality.cc to ccnsim/src/clients \
-Copy GeographicalLocalityContentDistribution.cc to ccnsim/src/content \
-Copy GeographicalLocalityContentDistribution.ned to ccnsim/moduels/contnet\ 
-Copy omnetpp.ini to ccnsim \
-Copy basic_cache.cc to ccnsim/src/node/cache \
+Copy GeographicalLocalityContentDistribution.h, client_GeographicalLocality.h and basic_cache.h to ccnsim/include/ \
+Copy client_GeographicalLocality.cc to ccnsim/src/clients/ \
+Copy GeographicalLocalityContentDistribution.cc to ccnsim/src/content/ \
+Copy GeographicalLocalityContentDistribution.ned to ccnsim/moduels/contnet/ \ 
+Copy omnetpp.ini to ccnsim/ \
+Copy basic_cache.cc to ccnsim/src/node/cache/ \
+Replace Makefile with its original in ccnsim/
 Replace the following  with the one in ccnsim/modles/node/cache/caches.ned \
+
 
 	simple base_cache like cache
 	{
