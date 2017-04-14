@@ -17,17 +17,17 @@ Copy omnetpp.ini to ccnsim
 Copy basic_cache.cc to ccnsim/src/node/cache
 Replace the following  with the one in ccnsim/modles/node/cache/caches.ned
 
-simple base_cache like cache
-{
-    parameters:
-    	@display("i=block/buffer2;is=l");
+	simple base_cache like cache
+	{
+	    parameters:
+		@display("i=block/buffer2;is=l");
 
-	string DS = default("lce");
-	int C = default (100);
-  string cache_budget_file = default("");
-    gates:
-	inout cache_port;
-}
+		string DS = default("lce");
+		int C = default (100);
+	  string cache_budget_file = default("");
+	    gates:
+		inout cache_port;
+	}
 
 Note: these two classes are compatible with ccnsim3.
 Make the project, configure the .ini file and run it.
