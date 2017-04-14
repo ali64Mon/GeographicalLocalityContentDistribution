@@ -1,9 +1,10 @@
-These two classes introduce geographical locality for clients' requests.
-GeographicalLocalityContentDistribution class which inherets content_distribution calss is repsonsible for the followings: 
+Thee following two classes introduce geographical locality for clients' requests.
+
+- GeographicalLocalityContentDistribution class which inherets content_distribution calss is repsonsible for the followings: 
   1. Mapping each client to a region. Each region has its own distribution.
   2. Providing the details of information, including lambda, alpha  and the order of data items according to their popularity in that region, for each region. 
   
-client_GeographicalLocality class which inherets client class generates its requests according to the client to which its assgined.
+- client_GeographicalLocality class which inherets client class generates its requests according to the client to which its assgined.
 
 Since different regions have differnt lambda, we can also dedicate different cache sizes to the nodes in the network.
 In this regard, we modify basic_cache to accept differnt caches sizes for nodes. This is implemented as a map between a node and its corresponding size provided a file.
